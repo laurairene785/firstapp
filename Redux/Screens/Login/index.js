@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextInput } from 'react-native-gesture-handler';
 import styled from 'styled-components';
-import Content, TextInput, Button, FormLabel from 'Components';
+
 function Login({}) {
     return(
         <Content>
@@ -29,9 +29,4 @@ function Login({}) {
         </Content>
 
     );
-}
-const Center = styled.View
-container{
-flex = 1;
-justify : center;
 }
